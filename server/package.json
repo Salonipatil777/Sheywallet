@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "stripe": "^11.9.0",
+    "uuidv4": "^6.2.13"
+  }
+}
