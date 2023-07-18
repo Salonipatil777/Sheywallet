@@ -1,0 +1,47 @@
+.layout {
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  background-color: var(--primary);
+  padding: 15px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.active-menu-item {
+  border-radius: 3px;
+  color: var(--secondary);
+}
+.body {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  background-color: var(--primary);
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.content {
+  padding-top: 15px;
+}

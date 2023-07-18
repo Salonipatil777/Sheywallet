@@ -1,0 +1,42 @@
+.card {
+  background-color: white;
+  box-shadow: 0 0 3px black;
+}
+
+.parent-loader {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(55, 55, 55, 0.697);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+.loader {
+  width: 80px;
+  height: 80px;
+  border: 5px solid var(--primary);
+  border-radius: 50%;
+  border-top-color: var(--secondary);
+  animation: spin 1s linear infinite;
+}
+
+table{
+  border:1px solid #cdcdcd;
+  border-radius: 0% !important;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.br3{
+  border-radius: 3px !important;
+}
